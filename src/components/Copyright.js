@@ -8,8 +8,12 @@ export default function Copyright() {
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
       <MuiLink color="inherit" href={url}>
-        Your Website
+        {process.env.APP_NAME}
       </MuiLink>
+      {' '}
+      2011
+      {' '}
+      -
       {' '}
       {new Date().getFullYear()}
       {'.'}

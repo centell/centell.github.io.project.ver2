@@ -1,0 +1,23 @@
+import React from 'react';
+import styled from 'styled-components';
+
+const Container = styled('div')`
+  position: relative;
+  width: 230px;
+  height: 230px;
+  margin: 0 0 20px 161px;
+`;
+
+const Logo = styled('div')`
+  box-shadow: 20px 20px 0 #000000, 200px 20px 0 #000000, 30px 30px 0 #000000, 190px 30px 0 #000000, 40px 40px 0 #000000, 90px 40px 0 #000000, 100px 40px 0 #000000, 110px 40px 0 #000000, 120px 40px 0 #000000, 130px 40px 0 #000000, 180px 40px 0 #000000, 50px 50px 0 #000000, 70px 50px 0 #000000, 80px 50px 0 #000000, 140px 50px 0 #000000, 150px 50px 0 #000000, 170px 50px 0 #000000, 60px 60px 0 #000000, 160px 60px 0 #000000, 50px 70px 0 #000000, 70px 70px 0 #000000, 150px 70px 0 #000000, 170px 70px 0 #000000, 50px 80px 0 #000000, 80px 80px 0 #000000, 140px 80px 0 #000000, 170px 80px 0 #000000, 40px 90px 0 #000000, 90px 90px 0 #000000, 130px 90px 0 #000000, 180px 90px 0 #000000, 40px 100px 0 #000000, 100px 100px 0 #000000, 120px 100px 0 #000000, 180px 100px 0 #000000, 40px 110px 0 #000000, 110px 110px 0 #000000, 180px 110px 0 #000000, 40px 120px 0 #000000, 100px 120px 0 #000000, 120px 120px 0 #000000, 180px 120px 0 #000000, 40px 130px 0 #000000, 90px 130px 0 #000000, 130px 130px 0 #000000, 180px 130px 0 #000000, 50px 140px 0 #000000, 80px 140px 0 #000000, 140px 140px 0 #000000, 170px 140px 0 #000000, 50px 150px 0 #000000, 70px 150px 0 #000000, 150px 150px 0 #000000, 170px 150px 0 #000000, 60px 160px 0 #000000, 160px 160px 0 #000000, 50px 170px 0 #000000, 70px 170px 0 #000000, 80px 170px 0 #000000, 140px 170px 0 #000000, 150px 170px 0 #000000, 170px 170px 0 #000000, 40px 180px 0 #000000, 90px 180px 0 #000000, 100px 180px 0 #000000, 110px 180px 0 #000000, 120px 180px 0 #000000, 130px 180px 0 #000000, 180px 180px 0 #000000, 30px 190px 0 #000000, 190px 190px 0 #000000, 20px 200px 0 #000000, 200px 200px 0 #000000;
+  height: 10px;
+  width: 10px;
+`;
+
+export default function Copyright() {
+  return (
+    <Container>
+      <Logo />
+    </Container>
+  );
+}
