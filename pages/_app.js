@@ -5,7 +5,6 @@ import { StylesProvider, ThemeProvider as MuiThemeProvider } from '@material-ui/
 import { ThemeProvider as StyledThemeProvider } from 'styled-components';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import theme from '@components/theme';
-import { appWithTranslation } from '../i18n';
 
 const appName = process.env.APP_NAME;
 
@@ -45,4 +44,4 @@ MyApp.propTypes = {
   pageProps: PropTypes.object.isRequired,
 };
 
-export default appWithTranslation(MyApp);
+export default MyApp;

@@ -1,6 +1,5 @@
 import React from 'react';
-import { withTranslation } from '../i18n';
 
-const Error = ({ t }) => <div>{t('error')}</div>;
+const Error = () => <div>Error</div>;
 
-export default withTranslation('common')(Error);
+export default Error;
