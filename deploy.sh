@@ -3,15 +3,11 @@ npm run build
 echo "[system] build completed"
 npm run export
 echo "[system] export completed"
-cp -R out/ ../publish/
+cp -R out/ ../publish_centell.me/
 echo "[system] copy completed"
-cd ../publish
-git init
-git remote add origin https://github.com/centell/centell.github.io.git
+cd ../publish_centell.me
 git add .
 git commit -m 'auto deploy'
-git push -f origin main
+git push origin main
 echo "[system] deploy completed"
-cd ..
-rm -rf publish
-cd centell.github.io.project.ver2
+cd ../centell.github.io.project.ver2

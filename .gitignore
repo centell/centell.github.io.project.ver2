@@ -22,3 +22,4 @@ yarn-error.log*
 # Editor
 .vscode
 .idea
+pacakge-lock.json

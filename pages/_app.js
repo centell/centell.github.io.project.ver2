@@ -5,12 +5,13 @@ import { StylesProvider, ThemeProvider as MuiThemeProvider } from '@material-ui/
 import { ThemeProvider as StyledThemeProvider } from 'styled-components';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import theme from '@components/theme';
+import usePageTracking from '../src/lib/usePageTracking';
 
 const appName = process.env.APP_NAME;
 
 function MyApp(props) {
+  usePageTracking();
   const { Component, pageProps } = props;
-  // const appName = 'aaa';
 
   React.useEffect(() => {
     // Remove the server-side injected CSS.
