@@ -26,6 +26,7 @@ function MyApp(props) {
         <title>{appName}</title>
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
       </Head>
+      <link rel="shortcut icon" type="icon" href="/static/images/favicon.png" />
       <StylesProvider injectFirst>
         <StyledThemeProvider theme={theme}>
           <MuiThemeProvider theme={theme}>
