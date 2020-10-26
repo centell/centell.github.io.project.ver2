@@ -34,7 +34,17 @@
       "jsx-a11y/no-static-element-interactions": "warn",
       "object-curly-newline": "off",
       "max-len": "warn",
-      "no-restricted-syntax": "warn"
+      "no-restricted-syntax": "warn",
+      "template-curly-spacing": "off",
+      "indent": [
+        "error",
+        2,
+        {
+          "ignoredNodes": [
+            "TemplateLiteral"
+          ]
+        }
+      ]
     }
   },
   "husky": {
@@ -85,7 +95,7 @@
     "clsx": "latest",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "next": "latest",
+    "next": "^9.5.5",
     "next-i18next": "^4.2.1",
     "prop-types": "latest",
     "react": "latest",
