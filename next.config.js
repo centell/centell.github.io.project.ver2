@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 module.exports = {
-  distDir: 'docs',
+  distDir: 'build',
   env: {
     APP_NAME: process.env.APP_NAME,
     PORT: process.env.PORT,
